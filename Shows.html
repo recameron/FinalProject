@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+.images{
+	margin: 25px;
+	}
+*{
+    padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+h1 {
+    font-family: Century Gothic;
+    font-size: 70px;
+    text-align: center;
+    color: red;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+body {
+	background-color: gray;
+}
+
+h1 {	
+    animation: colorchange 60s infinite;
+}
+
+@keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}   
+
+.navbar{
+	background-color: red;
+	height: 50px;
+}
+
+.navbar ul{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.navbar ul li{
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	line-height: 50px;
+	display: block;
+}
+
+.navbar li a:hover:not(.active) {
+	background-color: crimson;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+</style>
+
+</head>
+
+<h1> Shows </h1>
+
+<body>
+
+<div class="navbar">
+	<ul >
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/abc/practice%20html.html">Home</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Shows/Shows.html">Shows</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Movies/Movies.html">Movies</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Music/Music.html">Music</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Video%20Games/Video%20Games.html">Video Games</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Books/Books.html">Books</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Sports/Sports.html">Sports</a></li>
+    </ul>
+</div>
+
+<div class="images">
+	<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://www.nbc.com/sites/nbcunbc/files/files/images/2016/1/19/MDot-TheOffice-640x360-MP.jpg" width="460" height="320"></a></button>
+	<button><a href="file:///C:/Users/Trevor/Downloads/friends%20page/Friends%20page.html"><img id="image" src="https://www.allthetests.com/quiz33/picture/pic_1451698302_1.jpg" width="460" height="320"></a></button>
+	<button><a href="file:///C:/Users/Trevor/Downloads/Game%20of%20Thrones/Game%20of%20Thrones.html"><img id="image" src="https://www.aiobot.com/wp-content/uploads/2018/07/Adidas-Game-of-Thrones.jpg" width="460" height="320"></a></button>
+	<button><a href="file:///C:/Users/Trevor/Downloads/One%20Piece/One%20Piece.html"><img id="image" src="http://pm1.narvii.com/5811/e60300da24cb69f0dd4647da863adfa0c19416dc_hq.jpg" width="460" height="320"></a></button>
+	<button><a href="file:///C:/Users/Trevor/Downloads/New%20Girl/New%20Girl.html"><img id="image" src="https://www.bamstudios.com/wp-content/uploads/New-Girl-Season-6.jpeg" width="460" height="320"></a></button>
+</div>
+
+<script src = "script.js"></script>
+
+</body>
+
+</html>
